@@ -1,0 +1,25 @@
+@import "../styles/stylesheet.scss";
+
+.header{
+    font-family: $text;
+    color: $blue;
+    text-align: center;
+    padding: 10px;
+   
+    &__title{
+        padding: 10px;
+        font-size: 40px;
+    }
+}
+
+.img {
+    width: 100%;
+    height: 20vw;
+    object-fit: scale-down;
+}
+
+.body{
+    padding: 10px;
+    font-family: $text;
+    text-align: center;
+}

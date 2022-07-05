@@ -1,0 +1,107 @@
+@import './../styles/stylesheet.scss';
+
+.gridContainer {
+    min-width: fit-content;
+    height: 100vh;
+    padding: 5rem 4rem 1rem 1rem;
+    display: grid;
+    //grid-template-columns: 60% 40%;
+    flex-wrap: wrap;
+
+    &__login {
+        flex-wrap: wrap;
+        padding-top: 20px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__logo{
+            height: 25%;
+        }
+        &__title{
+            margin-top: 1px;
+            font-family: $logo;
+            font-size: 10vmin;
+            color: $blue;
+            margin-bottom: 10px;
+        }
+
+        &__form{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &__input{
+                text-align: start;
+                width: 20rem;
+                font-family: $text;
+                font-size: 1.2rem;
+                color: $black;
+                padding: 10px;
+                margin: 12px 12px;
+                border-radius: $buttonRadius;
+                border: 1.5px solid $black;
+            }
+
+            &__login{
+                margin-top: 10px;
+                width: 14rem;
+                padding: 10px 10px;
+                text-align: center;
+                text-decoration: none;
+                background-color: $blue;
+                border-radius: $buttonRadius;
+                font-family: $logo;
+                font-size: 1.5rem;
+                color: white;
+                border: 0;
+            }
+        }
+    }
+    &__signUp {
+        //height: 70%;
+        height:fit-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-self: center;
+        padding: 2rem;
+        border-radius: 3%;
+
+        &__header1{
+            margin-top: 30px;
+            font-family: $logo;
+            color: $blue;
+            font-size: 2.5rem;
+            margin-bottom: 0;
+        }
+
+        &__header2{
+            margin-top: 10px;
+            font-family: $text;
+            font-size: 1.3rem;
+            color: $black;
+        }
+
+        &__phoneIcon{
+            height: 35vmin;
+            margin-top: 10px;
+        }
+        
+        &__button{
+            margin-top: 25px;
+            margin-bottom: 40px;
+            padding: 10px 72px;
+            text-align: center;
+            text-decoration: none;
+            background-color: white;
+            border: 0.25vmin solid $black;
+            border-radius: $buttonRadius;
+            font-family: $logo;
+            font-size: 1.5rem;
+            color: $blue;
+        }
+    }
+}
