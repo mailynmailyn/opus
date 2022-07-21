@@ -10,7 +10,7 @@ const NavbarM = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className= {classes.nav__options}>
-          <Nav.Link as= {Link} to = "/about">about</Nav.Link>
+          <Nav.Link as= {Link} to = "/about">about/contact</Nav.Link>
           <Nav.Link as= {Link} to = "/search">search</Nav.Link>
           <Nav.Link as= {Link} to = "/profile">profile</Nav.Link>
           <NavDropdown title="&#x1F30E;" id="basic-nav-dropdown">

@@ -7,8 +7,19 @@
     padding: 10px;
    
     &__title{
-        padding: 10px;
         font-size: 40px;
+    }
+    &__subtitle{
+        font-family: $text;
+        font-size: 1.5rem;
+        color: $blue;
+        margin:0;
+    }
+    &__email{
+        font-family: $text;
+        font-size: 1rem;
+        color: $blue;
+        margin:0;
     }
 }
 
