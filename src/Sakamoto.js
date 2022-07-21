@@ -23,8 +23,8 @@ function Sakamoto() {
                     <h3 className = {classes.body__bio}>Sakamoto released his first solo album Thousand Knives of Ryūichi Sakamoto in mid-1978 with the help of Hideki Matsutake—Hosono also contributed to the song "Thousand Knives". The album experimented with different styles, such as "Thousand Knives" and "The End of Asia"—in which electronic music was fused with traditional Japanese music—while "Grasshoppers" is a more minimalistic piano song. The album was recorded from April to July 1978 with a variety of electronic musical instruments. </h3>
                     <div className = {classes.buttonGrid}>
                         <Button as= {Link} to = "/sakamotoreviews"> see reviews </Button>
-                        <Button as= {Link} to = "/sakamotoreviews"> leave a review </Button>
-                        <Button as= {Link} to = "/sakamotoreviews"> add to favourites </Button>
+                        <Button as= {Link} to = "/leavereview"> leave a review </Button>
+                        <Button as= {Link} to = "/profile"> add to favourites </Button>
                     </div>
                 </div>
             </div>

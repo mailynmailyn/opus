@@ -1,4 +1,4 @@
-import classes from './styles/Profile.module.scss'
+import classes from './styles/French.module.scss'
 import NavbarO from './assets/NavbarO.js';
 import logo from './assets/record.png';
 import sakamoto from './assets/sakamoto.jpg';
@@ -10,7 +10,7 @@ import {Button} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
 
-function Profile(){
+function French(){
     return(
         <div>
             <NavbarO></NavbarO>
@@ -20,16 +20,16 @@ function Profile(){
                         <img src={logo} className = {classes.card__img} alt="logo"/>
                     </div>
                     <div>
-                        <h1 className = {classes.body__title}> username </h1>
-                        <button> edit profile </button>
+                        <h1 className = {classes.body__title}> nom d'utilisateur </h1>
+                        <button> modifier le profil </button>
                     </div>
                     <div>
                         <h3 className = {classes.body__stats}>stats</h3>
-                        <h4 className = {classes.body__bio}># albums listened</h4>
-                        <h4 className = {classes.body__bio}># albums reviewed</h4>
+                        <h4 className = {classes.body__bio}># albums écoutés</h4>
+                        <h4 className = {classes.body__bio}># albums critiqués</h4>
                     </div>
                 </div>
-                <h2 className = {classes.body__subtitle}> favourite albums </h2>
+                <h2 className = {classes.body__subtitle}> albums préférés</h2>
                 <div className = {classes.secondaryGrid}>
                     <div className = {classes.genreGrid}>
                         <Button as= {Link} to = "/sakamoto"> 
@@ -49,11 +49,11 @@ function Profile(){
                         </Button>   
                         
                     </div>
-                    <button> edit albums </button>
+                    <button> modifier les albums </button>
                 </div>
             </body>
         </div>
     )
 }
 
-export default Profile;
+export default French;

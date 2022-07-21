@@ -7,7 +7,6 @@ import {Button} from 'react-bootstrap'
 function SignUp() {
   return (
     <div>
-    <NavbarO></NavbarO>
     <div className={classes.gridContainer}>
       <div className = {classes.gridContainer__login}> 
         <img src={logo} className={classes.gridContainer__login__logo} alt="logo" />

@@ -1,0 +1,70 @@
+@import './../styles/stylesheet.scss';
+
+.header{
+    text-align: center;
+    &__title{
+        font-family: $logo;
+        font-size: 2.2rem;
+        color: $blue;
+        margin:0;
+        padding:10px;
+    } 
+    &__subtitle{
+        font-family: $logo;
+        font-size: 1rem;
+        color: $blue;
+        margin:0;
+        padding: 0;
+    }
+
+
+}
+
+.body{
+    height: 100vh;
+    text-align:center;
+    font-family: $text;
+    font-size: 1rem;
+    color: $black;
+    padding-top: 30px;
+
+    &__bodytext{
+        font-family: $text;
+        font-size: 1rem;
+        color: $black;
+        margin:0;
+        padding: 20px;
+    } 
+    &__pfp{
+        display:inline-block;
+        text-align: center;
+        &__file{
+            padding-top: 20px;
+        }
+    }
+    &__bio{
+        display:inline-block;
+        padding-left:50px;
+    }
+    &__img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        padding: 20px;
+        background-color: white;
+        border: 0.25vmin solid $black;
+    } 
+    &__button{
+        margin-top: 25px;
+        margin-bottom: 40px;
+        padding: 8px 30px;
+        text-align: center;
+        text-decoration: none;
+        background-color: $blue;
+        border: 0.25vmin solid $black;
+        border-radius: $buttonRadius;
+        font-family: $logo;
+        font-size: 1rem;
+        color: white;
+    }
+}
